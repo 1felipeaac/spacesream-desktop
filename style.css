@@ -103,7 +103,7 @@ main{
 
 main .wrapper{
     display: grid;
-    grid-template-areas: "pallete shake pallete2"
+    grid-template-areas: "palette shake palette2"
     "popsicle shake popsicle2"
     "popsicle paste popsicle2";
 
@@ -115,7 +115,7 @@ main .wrapper{
 }
 
 #pallets{
-    grid-area: pallete;
+    grid-area: palette;
 }
 
 #shakes{
@@ -123,7 +123,7 @@ main .wrapper{
 }
 
 #pallets2{
-    grid-area: pallete2;
+    grid-area: palette2;
 }
 
 #popsicles{
