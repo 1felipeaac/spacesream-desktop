@@ -103,9 +103,9 @@ main{
 
 main .wrapper{
     display: grid;
-    grid-template-areas: "paleta shake paleta2"
-    "picole shake picole2"
-    "picole massa picole2";
+    grid-template-areas: "pallete shake pallete2"
+    "popsicle shake popsicle2"
+    "popsicle paste popsicle2";
 
     row-gap: 3.2rem;
     column-gap: 3.2rem;
@@ -114,29 +114,29 @@ main .wrapper{
     padding: 6.4rem 8.1rem 12.4rem 9.8rem;
 }
 
-#paletas{
-    grid-area: paleta;
+#pallets{
+    grid-area: pallete;
 }
 
 #shakes{
     grid-area: shake;
 }
 
-#paletas2{
-    grid-area: paleta2;
+#pallets2{
+    grid-area: pallete2;
 }
 
-#picoles{
-    grid-area: picole;
+#popsicles{
+    grid-area: popsicle;
 }
 
-#massas{
+#pastes{
     margin-top: 1.8rem;
-    grid-area: massa;
+    grid-area: paste;
 }
 
-#picoles2{
-    grid-area: picole2;
+#popsicles2{
+    grid-area: popsicle2;
 }
 
 .small, .small img{
